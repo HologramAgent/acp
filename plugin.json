@@ -1,0 +1,18 @@
+{
+  "author": "HologramAgent",
+  "description": "Agent Client Protocol 通信插件：充当 ACP 服务端接受其他 Agent 的任务请求，同时提供客户端工具向远程 ACP Agent（如 opencode）发起会话并读取回复",
+  "entry": "plugin.bin",
+  "name": "acp",
+  "name_en": "ACP Agent Client Protocol",
+  "name_zh": "ACP 代理通信",
+  "platforms": [
+    "linux",
+    "darwin"
+  ],
+  "tags": [
+    "acp",
+    "agent",
+    "interop"
+  ],
+  "version": "1.2.1"
+}
